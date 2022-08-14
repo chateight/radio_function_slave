@@ -10,6 +10,7 @@ radio.onReceivedString(function (receivedString) {
 let id = 0
 music.playMelody("G A - - - - - - ", 300)
 radio.setGroup(1)
+radio.setTransmitPower(7)
 id = 0
 basic.showString("" + (id))
 basic.forever(function () {
